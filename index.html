@@ -1,205 +1,198 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dheime Fernando | Dados, IA e Estratégia</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dheime Mocelin | Data & Analytics</title>
 
   <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 
   <style>
     body {
-      font-family: 'Poppins', sans-serif;
-      background-color: #f9f9f9;
-      color: #111;
-      margin: 0;
-      padding: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f8f9fa;
+      color: #222;
     }
 
-    header {
-      background: #000;
-      color: #fff;
+    .header {
+      background-color: #0d1117;
+      color: white;
       text-align: center;
-      padding: 50px 20px;
+      padding: 40px 20px;
     }
 
-    header img {
-      width: 130px;
-      height: 130px;
+    .profile-image {
+      width: 140px;
+      height: 140px;
       border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    .section {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      padding: 30px;
+      margin-top: 25px;
+    }
+
+    .section h4 {
+      font-weight: 600;
       margin-bottom: 20px;
     }
 
-    header h1 {
-      font-weight: 600;
-      font-size: 28px;
-    }
-
-    header p {
+    .section p {
       font-size: 15px;
-      color: #ccc;
-      margin: 5px 0 20px 0;
+      line-height: 1.6;
+      color: #444;
     }
 
-    section {
-      padding: 60px 0;
+    .badges img {
+      margin: 5px;
     }
 
-    .section-title {
-      text-transform: uppercase;
-      font-size: 18px;
-      letter-spacing: 2px;
+    h2, h3, h4, h5 {
       font-weight: 600;
-      color: #000;
-      text-align: center;
-      margin-bottom: 40px;
     }
 
-    .skills img {
-      margin: 8px;
+    footer {
+      text-align: center;
+      padding: 40px 0;
+      color: #555;
+    }
+
+    footer img {
+      margin: 5px;
     }
 
     .card {
       border: none;
-      border-radius: 8px;
-      transition: transform 0.3s;
+      transition: all 0.2s ease-in-out;
     }
 
     .card:hover {
       transform: translateY(-5px);
-      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     }
 
-    footer {
-      background: #000;
-      color: #fff;
-      padding: 40px 0;
-      text-align: center;
+    .custom-btn-color {
+      background-color: #30A3DC;
+      border: none;
     }
 
-    a {
-      color: #30A3DC;
-      text-decoration: none;
-    }
-
-    a:hover {
-      color: #008ecf;
-    }
-
-    .badge-img {
-      margin: 5px;
+    .custom-btn-color:hover {
+      background-color: #1a84b8;
     }
   </style>
 </head>
 
 <body>
 
-  <!-- Header -->
-  <header>
-    <img src="https://media.licdn.com/dms/image/D4D03AQE0tJ9FuT6kpA/profile-displayphoto-shrink_400_400/0/1707839873659?e=2147483647&v=beta&t=AA7rdV7fdw2OfOCeAixZwuvC_399__hCv-m0o00e_1U" alt="Dheime Fernando">
-    <h1>Dheime Fernando de Oliveira Mocelin</h1>
+  <header class="header">
+    <img class="profile-image" src="https://media.licdn.com/dms/image/D4D03AQE0tJ9FuT6kpA/profile-displayphoto-shrink_400_400/0/1707839873659?e=1719446400&v=beta&t=AA7rdV7fdw2OfOCeAixZwuvC_399__hCv-m0o00e_1U" alt="Dheime Mocelin">
+    <h2>Dheime Fernando de Oliveira Mocelin</h2>
     <p>Coordenador de Dados & Inteligência de Mercado | Analytics Engineer | Data Science & IA aplicada a Negócios</p>
 
-    <div>
+    <div class="mt-3">
       <a href="https://www.linkedin.com/in/dheimemocelin" target="_blank">
-        <img class="badge-img" src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=30A3DC" alt="LinkedIn">
+        <img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=30A3DC">
       </a>
-      <a href="https://wa.me/5569999222613?text=Ol%C3%A1%2C+vi+seu+portf%C3%B3lio" target="_blank">
-        <img class="badge-img" src="https://img.shields.io/badge/WhatsApp-000000?style=for-the-badge&logo=whatsapp&logoColor=30A3DC" alt="WhatsApp">
+      <a href="https://wa.me/5569999222613?text=Ol%C3%A1,+vi+seu+portf%C3%B3lio,+gostaria+de+falar+com+voc%C3%AA" target="_blank">
+        <img src="https://img.shields.io/badge/WhatsApp-0D1117?style=for-the-badge&logo=whatsapp&logoColor=30A3DC">
       </a>
-      <a href="mailto:dheime.mocelin@gmail.com" target="_blank">
-        <img class="badge-img" src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=30A3DC" alt="Email">
+      <a href="mailto:dheime7@gmail.com" target="_blank">
+        <img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=30A3DC">
       </a>
     </div>
   </header>
 
-  <!-- About -->
-  <section id="sobre" class="container">
-    <h2 class="section-title">Sobre mim</h2>
-    <p class="text-center mx-auto" style="max-width:800px;">
-      Atuo na interseção entre <strong>Dados, Tecnologia e Marketing</strong>, com experiência em <strong>Analytics Engineering, Data Science, Machine Learning</strong> e <strong>Inteligência de Mercado</strong>.
-      Minha trajetória inclui projetos de BI, automação e modelagem de dados que geram impacto direto em performance, eficiência e estratégia empresarial.
-      <br><br>
-      Tenho experiência prática em diversos setores — de marketing e e-commerce a crédito e indústria — aplicando dados para otimizar resultados e apoiar decisões executivas.
-      <br><br>
-      Sou entusiasta da aplicação de dados no esporte, especialmente em <strong>scouting, performance e modelagem preditiva no futebol</strong>.
-    </p>
-  </section>
+  <main class="container mt-5">
 
-  <!-- Skills -->
-  <section id="skills" class="skills text-center">
-    <h2 class="section-title">Stack Técnica</h2>
-    <div class="container">
-      <img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=30A3DC" alt="Python">
-      <img src="https://img.shields.io/badge/SQL-000000?style=for-the-badge&logo=postgresql&logoColor=30A3DC" alt="SQL">
-      <img src="https://img.shields.io/badge/AWS-000000?style=for-the-badge&logo=amazonaws&logoColor=30A3DC" alt="AWS">
-      <img src="https://img.shields.io/badge/Power%20BI-000000?style=for-the-badge&logo=powerbi&logoColor=30A3DC" alt="Power BI">
-      <img src="https://img.shields.io/badge/Scikit--learn-000000?style=for-the-badge&logo=scikit-learn&logoColor=30A3DC" alt="Scikit-learn">
-      <img src="https://img.shields.io/badge/Databricks-000000?style=for-the-badge&logo=databricks&logoColor=30A3DC" alt="Databricks">
-      <img src="https://img.shields.io/badge/Airflow-000000?style=for-the-badge&logo=apacheairflow&logoColor=30A3DC" alt="Airflow">
-      <img src="https://img.shields.io/badge/Looker%20Studio-000000?style=for-the-badge&logo=googleanalytics&logoColor=30A3DC" alt="Looker Studio">
-    </div>
-  </section>
+    <section class="section">
+      <h4>Sobre mim</h4>
+      <p>Atuo na interseção entre <strong>Dados, Tecnologia e Marketing</strong>, com experiência em <strong>Analytics Engineering, Data Science, Machine Learning</strong> e <strong>Inteligência de Mercado</strong>.</p>
+      <p>Minha trajetória envolve projetos de análise de dados, BI e Marketing Science, evoluindo para iniciativas mais complexas de integração de sistemas, automação de processos, modelagem de dados e aplicação de machine learning em negócios.</p>
+      <p>Tenho contribuído para a eficiência operacional e melhoria de processos, sempre com foco em geração de valor, aumento de ROI e suporte estratégico a decisões corporativas.</p>
+    </section>
 
-  <!-- Projects -->
-  <section id="projetos" class="bg-light">
-    <div class="container">
-      <h2 class="section-title">Projetos em Destaque</h2>
-      <div class="row justify-content-center">
+    <section class="section">
+      <h4>Ferramentas Técnicas</h4>
+      <div class="badges">
+        <img src="https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=30A3DC">
+        <img src="https://img.shields.io/badge/SQL-0D1117?style=for-the-badge&logo=postgresql&logoColor=30A3DC">
+        <img src="https://img.shields.io/badge/AWS-0D1117?style=for-the-badge&logo=amazonaws&logoColor=30A3DC">
+        <img src="https://img.shields.io/badge/Power%20BI-0D1117?style=for-the-badge&logo=powerbi&logoColor=30A3DC">
+        <img src="https://img.shields.io/badge/Looker%20Studio-0D1117?style=for-the-badge&logo=google&logoColor=30A3DC">
+        <img src="https://img.shields.io/badge/Flask-0D1117?style=for-the-badge&logo=flask&logoColor=30A3DC">
+        <img src="https://img.shields.io/badge/PySpark-0D1117?style=for-the-badge&logo=apache-spark&logoColor=30A3DC">
+      </div>
+    </section>
+
+    <section class="section">
+      <h4>Projetos em Destaque</h4>
+      <div class="row text-center">
 
         <div class="col-md-4 mb-4">
           <div class="card">
-            <img src="https://hub.asimov.academy/wp-content/uploads/2023/09/ecommerce.webp" class="card-img-top" alt="E-commerce">
-            <div class="card-body text-center">
-              <h5 class="card-title">Análise de Clientes E-commerce</h5>
-              <p class="card-text">Modelagem estatística para segmentação e predição de comportamento de compra.</p>
-              <a href="https://github.com/dheimemocelin/regressao_projeto" target="_blank" class="btn btn-dark btn-sm">Ver Projeto</a>
+            <img src="https://hub.asimov.academy/wp-content/uploads/2023/09/ecommerce.webp" class="card-img-top" alt="Projeto E-commerce">
+            <div class="card-body">
+              <h6 class="card-title">Análise de Clientes de E-commerce</h6>
+              <a href="https://github.com/dheimemocelin/regressao_projeto" target="_blank" class="btn custom-btn-color btn-sm">Ver Projeto</a>
             </div>
           </div>
         </div>
 
         <div class="col-md-4 mb-4">
           <div class="card">
-            <img src="https://play-lh.googleusercontent.com/6lOVuc7k-4xpC75LIM7vIyaZLT_gxrc0FxfoKB2yqdp8-2vAC3m4fYbmDbMRAQUFIA=w3840-h2160-rw" class="card-img-top" alt="Sofascore">
-            <div class="card-body text-center">
-              <h5 class="card-title">Análise Esportiva - Sofascore</h5>
-              <p class="card-text">Coleta e análise de desempenho de jogadores com base em dados públicos via Web Scraping.</p>
-              <a href="https://github.com/dheimemocelin/analise_esportiva_sofascore" target="_blank" class="btn btn-dark btn-sm">Ver Projeto</a>
+            <img src="https://play-lh.googleusercontent.com/6lOVuc7k-4xpC75LIM7vIyaZLT_gxrc0FxfoKB2yqdp8-2vAC3m4fYbmDbMRAQUFIA=w3840-h2160-rw" class="card-img-top" alt="Análise Esportiva">
+            <div class="card-body">
+              <h6 class="card-title">Análise Esportiva - Sofascore</h6>
+              <a href="https://github.com/dheimemocelin/analise_esportiva_sofascore" target="_blank" class="btn custom-btn-color btn-sm">Ver Projeto</a>
             </div>
           </div>
         </div>
 
         <div class="col-md-4 mb-4">
           <div class="card">
-            <img src="https://miro.medium.com/v2/resize:fit:1200/1*y5Q4v0cXH8oPTsA7Lej9xQ.png" class="card-img-top" alt="CRM IA">
-            <div class="card-body text-center">
-              <h5 class="card-title">CRM Inteligente com IA</h5>
-              <p class="card-text">Automação de fluxos de lead scoring e follow-up com IA aplicada ao CRM Kommo + n8n.</p>
-              <a href="#" target="_blank" class="btn btn-dark btn-sm">Ver Projeto</a>
+            <img src="https://www.infiraise.com/wp-content/uploads/2022/06/web-scraping-in-python.jpg" class="card-img-top" alt="Web Scraping">
+            <div class="card-body">
+              <h6 class="card-title">Web Scraping - Loja Store</h6>
+              <a href="https://github.com/dheimemocelin/loja_store" target="_blank" class="btn custom-btn-color btn-sm">Ver Projeto</a>
             </div>
           </div>
         </div>
 
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Contact -->
+    <section class="section">
+      <h4>Experiência Profissional</h4>
+      <ul>
+        <li><strong>Grupo Rovema</strong> — Coordenador de Dados & Inteligência de Mercado (2023–atual)
+          <br>Criação de fluxos de automação com IA, integração de CRMs e ERPs, e implementação de processos data-driven em múltiplas unidades de negócio.
+        </li><br>
+        <li><strong>V4 Company</strong> — Data Analytics (2021–2023)
+          <br>Desenvolvimento de dashboards e análises avançadas de performance de marketing, conectando dados de Google, Meta e CRM para insights estratégicos.
+        </li>
+      </ul>
+    </section>
+
+    <section class="section text-center">
+      <h4>Educação</h4>
+      <p><strong>Graduação em Análise e Desenvolvimento de Sistemas</strong><br>
+      Estácio — Conclusão: 2024</p>
+    </section>
+
+  </main>
+
   <footer>
-    <p>© 2025 Dheime Fernando — Dados, IA e Estratégia</p>
-    <div>
-      <a href="https://www.linkedin.com/in/dheimemocelin" target="_blank">LinkedIn</a> |
-      <a href="https://github.com/dheimemocelin" target="_blank">GitHub</a> |
-      <a href="mailto:dheime.mocelin@gmail.com">E-mail</a>
-    </div>
+    <p>© 2025 Dheime Fernando — Data & Analytics</p>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
-
